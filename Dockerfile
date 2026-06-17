@@ -14,6 +14,7 @@ RUN set -ex; apt-get install -y latexmk luametatex latexdiff
 RUN set -ex; apt-get install -y fontconfig texlive-fonts-recommended \
   texlive-font-utils fonts-urw-base35 texlive-fonts-extra 
 RUN set -ex; apt-get install -y fonts-texgyre fonts-texgyre-math tex-gyre
+RUN set -ex; apt-get install -y texlive-luatex
 
 
 
